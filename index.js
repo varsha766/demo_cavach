@@ -145,7 +145,7 @@ async function generateCredentials() {
         issuer: "varsha",
         invoiceNumber: "12314"
     }
-    const schemaId = "sch:hid:testnet:zCJQyXUTMwGmgdDjAKsQNtaeiX9Wc7pB1vpMYesztomDA:1.0"
+    const schemaId = "sch:hid:testnet:zGbKxqXiJ6H4qSHoDYY73dJy4JZDVLXCkbyzW6DYByDJh:1.0"
     dayPassCredential = await generateAndIssueCredential({ fields: dayPassCredField, schemaId })
     console.log(dayPassCredential)
 }
